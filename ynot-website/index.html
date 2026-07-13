@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header">
     <nav class="navbar" aria-label="Primary">
       <a href="index.html" class="navbar__brand">
@@ -47,9 +45,10 @@
       <div class="container">
         <div class="hero__content">
           <p class="hero__eyebrow">UC San Diego</p>
-          <h1 class="hero__title">YNot</h1>
-          <p class="hero__subtitle">Just Try</p>
-          <p class="hero__tagline">why not just try</p>
+          <div class="hero__title-row">
+            <h1 class="hero__title">YNot</h1>
+            <p class="hero__subtitle">Just Try</p>
+          </div>
           <div class="hero__actions">
             <a href="join.html" class="btn btn--primary">Join the hive</a>
             <a href="events.html" class="btn btn--ghost">See events</a>
@@ -127,13 +126,6 @@
           <!-- placeholder shown only if assets/images/fears-hexagon-cluster.png fails to load -->
           <div class="img-placeholder" hidden>assets/images/fears-hexagon-cluster.png</div>
         </div>
-        <ul class="fears__tags">
-          <li class="fear-tag">Fear of building</li>
-          <li class="fear-tag">Fear of pitching</li>
-          <li class="fear-tag">Fear of asking</li>
-          <li class="fear-tag">Fear of being alone</li>
-          <li class="fear-tag">Fear of failure</li>
-        </ul>
       </div>
     </section>
 
