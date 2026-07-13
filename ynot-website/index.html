@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YNot — UC San Diego Student Entrepreneurship</title>
+  <meta name="description" content="YNot is a UC San Diego student org building a braver, kinder culture around entrepreneurship. Traditional founders are a myth. Just try.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="navbar__brand">
+        <span class="bee-media navbar__logo-wrap">
+          <img src="assets/images/bee-logo.png" alt="YNot bee logo" class="navbar__logo">
+          <!-- placeholder shown only if assets/images/bee-logo.png fails to load -->
+          <span class="img-placeholder" hidden>logo</span>
+        </span>
+        <span class="navbar__wordmark">YNot</span>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html" class="navbar__link is-active" aria-current="page">Home</a></li>
+        <li><a href="events.html" class="navbar__link">Events</a></li>
+        <li><a href="team.html" class="navbar__link">Team</a></li>
+        <li><a href="join.html" class="navbar__link">Join</a></li>
+      </ul>
+      <button class="navbar__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="index.html" class="navbar__link is-active" aria-current="page">Home</a>
+      <a href="events.html" class="navbar__link">Events</a>
+      <a href="team.html" class="navbar__link">Team</a>
+      <a href="join.html" class="navbar__link">Join</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <p class="hero__eyebrow">UC San Diego</p>
+          <h1 class="hero__title">YNot</h1>
+          <p class="hero__subtitle">Just Try</p>
+          <p class="hero__tagline">why not just try</p>
+          <div class="hero__actions">
+            <a href="join.html" class="btn btn--primary">Join the hive</a>
+            <a href="events.html" class="btn btn--ghost">See events</a>
+          </div>
+        </div>
+        <div class="hero__art bee-media">
+          <svg class="hero__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill="currentColor" d="M45.3,-58.3C58.5,-49.3,68.4,-34.5,71.8,-18.1C75.2,-1.7,72.1,16.3,63.5,31.4C54.9,46.5,40.8,58.7,24.4,64.5C8,70.3,-10.7,69.7,-27.3,63.2C-43.9,56.7,-58.4,44.3,-66.5,28.5C-74.6,12.7,-76.3,-6.5,-70.5,-22.6C-64.7,-38.7,-51.4,-51.7,-36.5,-60.1C-21.6,-68.5,-3.7,-72.3,10.8,-77.8C25.3,-83.3,36.4,-67.3,45.3,-58.3Z" transform="translate(100 100)" />
+          </svg>
+          <img src="assets/images/bee-hero.png" alt="YNot's bee mascot standing tall and confident, ready to try something new" class="hero__bee">
+          <!-- placeholder shown only if assets/images/bee-hero.png fails to load -->
+          <div class="img-placeholder" hidden>assets/images/bee-hero.png</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="section section--alt mission">
+      <div class="container mission__inner">
+        <h2 class="section__title">The old story doesn't fit anymore</h2>
+        <p class="section__lead">
+          "Traditional founder" is a myth — most people who've built something looked nothing like the story you've
+          been told. Fear of looking dumb, of pitching wrong, of failing in public keeps good people out before they
+          ever start. And when failure does happen, we treat it like a life sentence instead of a data point. YNot
+          exists to build a different culture around trying, and to prove — one small bet at a time — that it works.
+        </p>
+      </div>
+    </section>
+
+    <!-- TRY philosophy -->
+    <section class="section try">
+      <div class="container">
+        <h2 class="section__title">The TRY Philosophy</h2>
+        <div class="try__grid">
+          <article class="card try-card">
+            <span class="bee-media try-card__bee-wrap">
+              <img src="assets/images/bee-emotion-curious.png" alt="A curious bee tilting its head, wondering what's possible" class="try-card__bee">
+              <!-- placeholder shown only if assets/images/bee-emotion-curious.png fails to load -->
+              <span class="img-placeholder" hidden>curious</span>
+            </span>
+            <span class="try-card__letter">T</span>
+            <h3 class="try-card__title">Traditional founders are a myth</h3>
+            <p class="try-card__text">There's no single background, resume, or personality that makes someone a founder. You don't need permission to start.</p>
+          </article>
+          <article class="card try-card">
+            <span class="bee-media try-card__bee-wrap">
+              <img src="assets/images/bee-emotion-determined.png" alt="A determined bee with a focused, resolute expression" class="try-card__bee">
+              <!-- placeholder shown only if assets/images/bee-emotion-determined.png fails to load -->
+              <span class="img-placeholder" hidden>determined</span>
+            </span>
+            <span class="try-card__letter">R</span>
+            <h3 class="try-card__title">Refuse to let fear stop you</h3>
+            <p class="try-card__text">Fear shows up before every hard thing worth doing. The move isn't to wait until it's gone — it's to try anyway.</p>
+          </article>
+          <article class="card try-card">
+            <span class="bee-media try-card__bee-wrap">
+              <img src="assets/images/bee-emotion-proud.png" alt="A proud bee standing tall with its chest out" class="try-card__bee">
+              <!-- placeholder shown only if assets/images/bee-emotion-proud.png fails to load -->
+              <span class="img-placeholder" hidden>proud</span>
+            </span>
+            <span class="try-card__letter">Y</span>
+            <h3 class="try-card__title">Yesterday's failure is tomorrow's foundation</h3>
+            <p class="try-card__text">Failure isn't a verdict on you — it's material. Every stumble becomes something you build the next attempt on.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fears grid -->
+    <section class="section section--alt fears">
+      <div class="container fears__inner">
+        <h2 class="section__title">We remove fears. You grow.</h2>
+        <div class="fears__art bee-media">
+          <img src="assets/images/fears-hexagon-cluster.png" alt="A cluster of hexagons representing the fears YNot helps members move through: building, pitching, asking, being alone, and failure" class="fears__img">
+          <!-- placeholder shown only if assets/images/fears-hexagon-cluster.png fails to load -->
+          <div class="img-placeholder" hidden>assets/images/fears-hexagon-cluster.png</div>
+        </div>
+        <ul class="fears__tags">
+          <li class="fear-tag">Fear of building</li>
+          <li class="fear-tag">Fear of pitching</li>
+          <li class="fear-tag">Fear of asking</li>
+          <li class="fear-tag">Fear of being alone</li>
+          <li class="fear-tag">Fear of failure</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+      <div class="container cta__inner">
+        <h2 class="cta__title">See what's coming this quarter.</h2>
+        <a href="events.html" class="btn btn--primary btn--lg">View Fall events</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-tagline">why not just try</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/ynot.ucsd" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+        <a href="mailto:ynot.ucsd@gmail.com" class="footer-link">ynot.ucsd@gmail.com</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 YNot — UC San Diego</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

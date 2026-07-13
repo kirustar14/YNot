@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join — YNot</title>
+  <meta name="description" content="Follow YNot on Instagram or email us to get involved with UC San Diego's student entrepreneurship org.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="navbar__brand">
+        <span class="bee-media navbar__logo-wrap">
+          <img src="assets/images/bee-logo.png" alt="YNot bee logo" class="navbar__logo">
+          <!-- placeholder shown only if assets/images/bee-logo.png fails to load -->
+          <span class="img-placeholder" hidden>logo</span>
+        </span>
+        <span class="navbar__wordmark">YNot</span>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="events.html" class="navbar__link">Events</a></li>
+        <li><a href="team.html" class="navbar__link">Team</a></li>
+        <li><a href="join.html" class="navbar__link is-active" aria-current="page">Join</a></li>
+      </ul>
+      <button class="navbar__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="events.html" class="navbar__link">Events</a>
+      <a href="team.html" class="navbar__link">Team</a>
+      <a href="join.html" class="navbar__link is-active" aria-current="page">Join</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="join-hero">
+      <div class="container">
+        <h1 class="join-hero__title">So are you ready to try?</h1>
+        <div class="join-hero__art bee-media">
+          <img src="assets/images/bee-flying-flower.png" alt="A bee happily flying toward a flower" class="join-hero__bee">
+          <!-- placeholder shown only if assets/images/bee-flying-flower.png fails to load -->
+          <div class="img-placeholder" hidden>assets/images/bee-flying-flower.png</div>
+        </div>
+        <div class="join-hero__actions">
+          <a href="https://instagram.com/ynot.ucsd" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">Follow us on Instagram</a>
+          <a href="mailto:ynot.ucsd@gmail.com" class="btn btn--ghost btn--lg">Email us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-tagline">why not just try</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/ynot.ucsd" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+        <a href="mailto:ynot.ucsd@gmail.com" class="footer-link">ynot.ucsd@gmail.com</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 YNot — UC San Diego</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

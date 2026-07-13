@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fall Quarter Events — YNot</title>
+  <meta name="description" content="YNot's Fall quarter hive trail: seven stops, each one removing a fear that keeps people from trying.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="navbar__brand">
+        <span class="bee-media navbar__logo-wrap">
+          <img src="assets/images/bee-logo.png" alt="YNot bee logo" class="navbar__logo">
+          <!-- placeholder shown only if assets/images/bee-logo.png fails to load -->
+          <span class="img-placeholder" hidden>logo</span>
+        </span>
+        <span class="navbar__wordmark">YNot</span>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="events.html" class="navbar__link is-active" aria-current="page">Events</a></li>
+        <li><a href="team.html" class="navbar__link">Team</a></li>
+        <li><a href="join.html" class="navbar__link">Join</a></li>
+      </ul>
+      <button class="navbar__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="events.html" class="navbar__link is-active" aria-current="page">Events</a>
+      <a href="team.html" class="navbar__link">Team</a>
+      <a href="join.html" class="navbar__link">Join</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="events-hero">
+      <div class="container">
+        <h1 class="events-hero__title">Fall Quarter</h1>
+        <p class="events-hero__subhead">
+          Think of it as a trail through the hive: small, ordinary bees, each one stopping to create a little value
+          along the way. No single stop is the whole point — the trail is. Here's every stop this Fall.
+        </p>
+      </div>
+    </section>
+
+    <section class="trail">
+      <div class="container">
+        <ol class="trail__list">
+          <!-- Stop 1: GBM -->
+          <li class="trail__stop trail__stop--left">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-standing.png" alt="A bee standing and waving hello, welcoming new members" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-standing.png fails to load -->
+                  <span class="img-placeholder" hidden>standing</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Week 0 · Kickoff</span>
+                  <h2 class="stop-card__name">GBM</h2>
+                </div>
+              </div>
+              <p class="stop-card__text">Come meet the hive. We'll walk through the TRY framework, tell you what the quarter looks like, and open sign-ups for everything below.</p>
+            </div>
+          </li>
+
+          <!-- Stop 2: Problem Hunt -->
+          <li class="trail__stop trail__stop--right">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-problem-hunt.png" alt="A bee out searching, magnifying glass in hand, hunting for real problems" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-problem-hunt.png fails to load -->
+                  <span class="img-placeholder" hidden>problem hunt</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Weeks 1–2</span>
+                  <h2 class="stop-card__name">Problem Hunt</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: talking to strangers, asking</span>
+              <p class="stop-card__text">Members spend 15 minutes finding real people and collecting real problems, then bring it all back and map it on a board as a group.</p>
+            </div>
+          </li>
+
+          <!-- Stop 3: Cofounder Speed Dating -->
+          <li class="trail__stop trail__stop--left">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-speed-dating.png" alt="A bee eagerly meeting another bee, speed-dating style" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-speed-dating.png fails to load -->
+                  <span class="img-placeholder" hidden>speed dating</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Weeks 3–4</span>
+                  <h2 class="stop-card__name">Cofounder Speed Dating</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: being alone</span>
+              <p class="stop-card__text">Pre-matched cofounder meetups — no cold-emailing strangers, no guessing who's actually looking for a team.</p>
+            </div>
+          </li>
+
+          <!-- Stop 4: Pitch Face Off -->
+          <li class="trail__stop trail__stop--right">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-pitch-faceoff.png" alt="A bee standing confidently at a podium, mid-pitch" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-pitch-faceoff.png fails to load -->
+                  <span class="img-placeholder" hidden>pitch face off</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Weeks 5–6</span>
+                  <h2 class="stop-card__name">Pitch Face Off</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: being judged</span>
+              <p class="stop-card__text">Everyone gets the same randomized idea, everyone pitches it, and the room judges — so no one's original idea is ever on the line.</p>
+            </div>
+          </li>
+
+          <!-- Stop 5: Investor for a Night -->
+          <li class="trail__stop trail__stop--left">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-investor-night.png" alt="A bee dressed sharp, reviewing a pitch deck like an investor" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-investor-night.png fails to load -->
+                  <span class="img-placeholder" hidden>investor night</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Weeks 7–8</span>
+                  <h2 class="stop-card__name">Investor for a Night</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: investors</span>
+              <p class="stop-card__text">Members play VC for a night, reviewing real anonymized decks and deciding what they'd actually fund.</p>
+            </div>
+          </li>
+
+          <!-- Stop 6: Teardown -->
+          <li class="trail__stop trail__stop--right">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-teardown.png" alt="A bee with tools, taking something apart to see how it works" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-teardown.png fails to load -->
+                  <span class="img-placeholder" hidden>teardown</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Weeks 9–10</span>
+                  <h2 class="stop-card__name">Teardown</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: failure</span>
+              <p class="stop-card__text">Members rebuild the full journey of one startup that made it and one that didn't — same starting line, different endings.</p>
+            </div>
+          </li>
+
+          <!-- Stop 7: Failure Panel -->
+          <li class="trail__stop trail__stop--left">
+            <div class="stop-card">
+              <div class="stop-card__top">
+                <span class="bee-media stop-card__bee-wrap">
+                  <img src="assets/images/bee-event-failure-panel.png" alt="A bee speaking openly on a panel, sharing something honest" class="stop-card__bee">
+                  <!-- placeholder shown only if assets/images/bee-event-failure-panel.png fails to load -->
+                  <span class="img-placeholder" hidden>failure panel</span>
+                </span>
+                <div class="stop-card__heading">
+                  <span class="stop-card__week">Finals week</span>
+                  <h2 class="stop-card__name">Proved Them Wrong: The Failure Panel</h2>
+                </div>
+              </div>
+              <span class="stop-card__fear">Fear removed: shame</span>
+              <p class="stop-card__text">Speakers share their biggest failure, not a highlight reel. We close the quarter on honesty.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-tagline">why not just try</p>
+      <div class="footer-links">
+        <a href="https://instagram.com/ynot.ucsd" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+        <a href="mailto:ynot.ucsd@gmail.com" class="footer-link">ynot.ucsd@gmail.com</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 YNot — UC San Diego</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
